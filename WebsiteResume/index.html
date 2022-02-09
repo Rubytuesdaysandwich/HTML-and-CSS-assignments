@@ -1,0 +1,448 @@
+<!------------------------------------- This is the original source code--------------------------->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="This is Rueben's resume" />
+    <meta name="author" content="" />
+    <title>MY Resume</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--core Theme/w bootstrap-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!--style css-->
+    <style type="text/css">
+      /*custom css*/
+
+      /*custom css*/
+      /*This is necessary*/
+      body {
+        padding-top: 3.375rem;
+        color: #6c757d;
+      }
+
+      @media (min-width: 992px) {
+        body {
+          padding-top: 0;
+          padding-left: 17rem;
+        }
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-transform: uppercase;
+      }
+      h1 {
+        line-height: 1;
+      }
+
+      p.lead {
+        font-size: 1.15rem;
+        font-weight: 400;
+      }
+      .subheadding {
+        font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+      #sidenav .navbar-nav .nav-item .nav-link {
+        font-weight: 800;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+      }
+      #sidenav .navbar-toggler:focus {
+        outline-color: #d48a6e;
+      }
+      @media (min-width: 992px) {
+        #sidenav {
+          text-align: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          width: 17rem;
+          height: 100vh;
+        }
+
+        #sidenav .navbar-brand {
+          display: flex;
+          margin: auto auto 0;
+          padding: 0.5rem;
+        }
+        #sidenav .navbar-brand .img-profile {
+          max-width: 10rem;
+          max-height: 10rem;
+          border: 0.5rem solid rgba(255, 255, 255, 0.2);
+        }
+        #sidenav .navbar-collapse {
+          display: flex;
+          align-items: flex-start;
+          flex-grow: 0;
+          width: 100%;
+          margin-bottom: auto;
+        }
+        #sidenav .navbar-collapse .navbar-nav {
+          flex-direction: column;
+          width: 100%;
+        }
+        #sidenav .navbar-collapse .navbar-nav .nav-item {
+          display: block;
+        }
+        #sidenav .navbar-collapse .navbar-nav .nav-item .nav-link {
+          display: block;
+        }
+      }
+      .social-icons .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #495057;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+      }
+      .social-icons .social-icon:last-child {
+        margin-right: 0;
+      }
+      .social-icons .social-icon:hover {
+        background-color: #bd5d38;
+      }
+      .dev-icons {
+        font-size: 3rem;
+      }
+      section.resume-section {
+        display: flex;
+        align-items: center;
+        padding: 5rem 1rem;
+        max-width: 75rem;
+      }
+      section.resume-section .resume-section-content {
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        section.resume-section {
+          min-height: 100vh;
+        }
+      }
+      @media (min-width: 992px) {
+        section.resume-section {
+          padding-left: 3rem;
+          padding-right: 3rem;
+          padding-top: 5rem;
+          padding-bottom: 5rem;
+        }
+      }
+
+      /*custom css ends*/
+      /*This is necessary*/
+    </style>
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav
+      id="sidenav"
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"
+        ><span class="d-block d-lg-none">Rueben Durfee</span
+        ><span class="d-none d-lg-block"
+          ><img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="assets/img/profile.jpg"
+            alt="" /></span
+      ></a>
+      <!-- replace my name with yours and image for yours on the SRC -->
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+      >
+        <span class="navigation-toggler-icon"></span>
+      </button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <!-- titles -->
+          <li class="nav-item">
+            <a href="#about" class="nav-link js-scroll-trigger">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Experience" class="nav-link js-scroll-trigger"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#Education" class="nav-link js-scroll-trigger"
+              >Education</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#Skills" class="nav-link js-scroll-trigger">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Interests" class="nav-link js-scroll-trigger"
+              >Interests</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#Awards" class="nav-link js-scroll-trigger">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Page content-->
+    <div class="container-fluid p-0">
+      <!--about-->
+      <section class="resume-section" id="about">
+        <div class="resume-section-content">
+          <h1 class="mb-0">Rueben <span class="text-primary">Durfee</span></h1>
+          <div class="subheading mb-5">
+            325 North 140 west fielding, Utah 84311 (208) 789-1797
+            <a href="mailto:Rueben.Durfee@gmail.com">Rueben.durfee@gmail.com</a>
+          </div>
+          <p class="lead mb-5">
+            I am a web and mobile development student. I am studying HTML ,
+            Css3, JavaScript and PHP in school. On my own time I study Arduino C
+            and C++.
+          </p>
+          <div class="social-icons">
+            <a
+              class="social-icon"
+              href="https://www.linkedin.com/in/rueben-durfee-499775212/"
+              target="blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://github.com/Rubytuesdaysandwich"
+              target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://www.instagram.com/rubytuesdaysandwich/"
+              target="blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://www.facebook.com/rueben.durfee"
+              target="blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!--expierence-->
+      <section class="resume-section" id="Experience">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Experience</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <!--recycling Tech-->
+              <h3 class="mb-0">Recycling Tech</h3>
+              <div class="subheading mb-3">West Liberty Foods</div>
+              <p>
+                I work in recycling where we process all the waste that is made
+                during production to be sent to a place to be reused.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary"> June 1st - present </span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <!--maintenance walmart-->
+              <h3 class="mb-0">Maintenance</h3>
+              <div class="subheading mb-3">Walmart</div>
+              <p>
+                I worked as maintenanc cleaning bathrooms,floors, picking up
+                trash, and fixing things.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary"> Jan 1st 2021 -May 28th 2021</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <!--excavation-->
+              <h3 class="mb-0">Excavation</h3>
+              <div class="subheading mb-3">Wild West Excavation</div>
+              <p>
+                I Built houses laied pipe, put in septic tanks, and used grade
+                rod.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary"
+                >March 27th 2020 - April 30th 2020</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!--education-->
+      <section class="resume-section" id="Education">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Education</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <!--bridgerland-->
+              <h3 class="mb-0">Bridgerland Tech</h3>
+              <div class="subheading mb-3">Web and Mobile development</div>
+              <p>Gpa:3.9</p>
+            </div>
+            <div class="flex-shrink">
+              <span class="text-primary"> August 9 - present</span>
+            </div>
+          </div>
+          <!--new-->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <!-- Idaho Youth Challenge Accademy -->
+              <h3 class="mb-0">Idaho Youth Chanllenge Accademy</h3>
+              <div class="subheading mb-3">Highschool diploma</div>
+              <p>GPA 3.9, Staff sergeant.</p>
+            </div>
+            <div class="flex-shrink">
+              <span class="text-primary"> July 20st -December 13, 2019</span>
+            </div>
+            <!--new-->
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!--skills-->
+      <section class="resume-section" id="Skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Skills</h2>
+          <div class="subheading mb-3">Programming languages and tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item"><i>PHP</i></li>
+            <li class="list-inline-item"><i class="fas fa-database"></i></li>
+          </ul>
+          <div class="subheading mb-3">work flow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>Responsive
+              design and web presence
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>Cross
+              browser testing and debugging
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>Front-End
+              and Back-End development
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>Database
+              development
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!--interests-->
+      <section class="resume-section" id="Interests">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Interests</h2>
+          <p>
+            I love Hiking outdoors, gaming, Arduino building, welding, woodwork,
+            and Trading or buying companies
+          </p>
+          <p class="mb-0">
+            I Love hanging out with Family and friends. I also like to volunteer
+            at kitchens for the homeless
+          </p>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!---awardsandcertifications-->
+      <section class="resume-section" id="Awards">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Awards</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i></span
+              >Lamp of knowledge Idaho youth challenge Accademy
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i></span
+              >Staff Sergeant Idaho youth challenge Accademy
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fas fa-trophy text-warning"></i></span
+              >Incident command system-0100,0200,0700
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
