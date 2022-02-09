@@ -1,0 +1,47 @@
+/* ====== Global =====*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+ h1,h2,h3,h4,h5,h6,figcaption {
+     font-family:'orbitron', sans-serif;
+ }
+ /* .learn-header{
+    font-size:larger;
+ }
+ .features-header{
+     font-size:larger; */
+ /* } */
+
+
+ .container{
+     width:75%;
+     margin:0 auto;
+ }
+ .center-image{
+     display:block;
+     margin:0 auto;
+ }
+ /*======================================================== navigation ===============================*/
+ Header nav ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#424949;
+
+ }
+ header nav ul{
+display:flex ;
+justify-content:flex-end ;
+
+ }
+ header nav ul li{
+     display:block;
+     color:white;
+     padding:14px 16px;
+     text-decoration:none;
+ }
+ header nav ul li a:hover{
+    background-color:#3b5998;
+ }
