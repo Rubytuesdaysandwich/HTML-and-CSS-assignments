@@ -1,0 +1,419 @@
+/*==========================================================================================================global============================================================*/
+
+*body{
+    font-family:"Saira Condensed, sans-serif";
+    background-color:whitesmoke;
+    height:100%;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:black;
+    text-align: left;
+    position:relative;
+    padding-bottom:237px;
+    min-height: 100vh;
+    
+}
+h1,h2,h3,h4,h5,h6,figcaption{
+    font-family:"Roboto Mono, monospace,";
+    font-weight: bold;
+   
+}
+h1{
+    font-size:5rem;
+}
+hr{
+    margin:6px;
+    height: 1px;
+    background-color:teal;
+    border: none;
+}
+p{
+    font-size:20px;
+}
+
+/*Navigation bar section*/
+header nav{
+    background:#0082e6;
+    height:80px;
+    width:100%;
+    }
+    header nav ul{
+    
+        float:right;
+        margin-right:20px;
+    }
+    
+    header nav ul li{
+        display:inline-block;
+        line-height:80px;
+        margin:0 5px;
+    }
+    
+    header nav ul li a{
+        color:white;
+        font-size:17px;
+        padding:7px 13;
+        border-radius:3px;
+        text-transform:uppercase;
+    }
+    
+    header a.active,a:hover{
+    background:cadetblue;
+    transition: .5s;
+    }
+    
+    header label.logo{
+    color:white;
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight:bold;
+    }
+/* navigation bar ends */
+
+/*container biography section*/
+.container-bio{
+    display:flex;
+    align-items: center;
+    padding:10px;
+
+}
+/*biogrphy section end */
+
+/*container portfolio section*/
+.container-port{
+    display:flex;
+    align-items: center;
+    padding:10px;
+    justify-content:left;
+    margin-left: 0px;
+    margin-right: 393.594px;
+}
+.text-port{
+    padding-right:60px;
+}
+/*container portfolio section ends*/
+
+/*work experience*/
+.resume-section-content{
+    justify-content: right;
+    padding-left: 10px;
+}
+/*work experience ends*/
+
+/*schools section*/
+.schools{
+    padding: 10px;
+}
+
+/*schools section ends*/
+
+/*skillss*/
+#skills{
+    padding:10px;
+    font-size:30px;
+}
+
+/*skills end*/
+/*services*/
+#services{
+    padding:10px;
+    font-size:30px;
+}
+/*services end*/
+/*interests*/
+.interests-container{
+    padding:16px;
+}
+
+
+
+/*interests end*/
+
+
+
+
+               /*=======================================CONTACT FORM===================================================================================================================================================================================*/
+
+/*=========contact form container===============*/
+.container{/*This gives a grid layout to the contacts page and defines the layout and text color*/
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50%;
+    padding: 5% 0;
+    color: black;
+}
+.resume-section-content{
+    margin:169px;
+    font-size: 32px;
+
+}
+.social-icons{
+    font-size:3rem;
+}
+/*for email button*/
+#button-b{
+    border:none;
+    background-color:whitesmoke;
+}
+/*end email button*/
+
+.contact-form-container-outer{
+    Margin-right:16px;
+    padding:0;
+    font-size:2rem;
+}
+/*======end contact form container=============*/
+
+/*=======contact form border box====*/
+.contact-form-container{
+border:2px solid #e74c3c;
+margin:16px;
+padding:10px;
+font-size:32px;
+}
+/*end contact form border box*/
+
+/*=====================contact form===================*/
+.contact-form .full-name{
+    grid-area: fname;
+}
+
+.contact-form .email{
+    grid-area: email;
+}
+.contact-form .phone{
+    grid-area: phone;
+}
+.contatct-form .subject{
+    grid-area: subject;
+}
+.contact-form .message{
+    grid-area:  message;
+}
+.contact-form  button{
+    grid-area: button;
+}
+.contact-form{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-areas:
+    'fname lname'
+    'email phone'
+    'subject subject'
+    'message message'
+    'button button'
+    ;
+    grid-gap: 20px;
+}
+#fname{
+    border:0;
+    background-color:lightgray;/*changes the text boxes independently*/
+}
+#email{
+    border:0;
+    background-color:lightgray;
+}
+#phone{
+    border:0;
+    background-color:lightgray;
+}
+#subject{
+    border:0;
+    background-color:lightgray;
+}
+#message{
+    border:0;
+    background-color:lightgray;
+}
+#submit{
+    border:0;
+    background-color:red;
+    color:white;
+    height:20;
+    padding:2rem;
+    text-transform: uppercase;
+    border-radius:15px;
+}
+
+/*end contact form*/
+/*grid area formatting*/
+
+footer{
+    background-color:#0082e6;
+    color:#fff;
+    padding:25px 0px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+footer nav ul {
+    list-style-type:none;
+    margin: 25px auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+footer nav ul li{
+    display: inline;
+
+}
+footer nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer nav ul li a:hover{
+    background-color:#3b5998;
+}
+footer p {
+    margin:30px auto;
+    text-align: center;
+}
+footer hr {
+border:0;
+height:1px;
+background: #fff;
+background-image: linear-gradient( to right, #424949, #fff, #424949); 
+}
+/* ==========Footer section end==================== */
+/*====================================================BLOG SECTION==============================================================================*/
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: lightgrey;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color:lightgrey;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom:16px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 16px;
+    margin:5px;
+  }
+  
+  #button-a{
+    border:none;
+    background-color:lightgrey;
+    display:block;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  /*==================================================Testimonials===============================================================================================*/
+
+.header-testimonial{
+    text-align:center;
+    color:white;
+    background-color: blue;
+    width:25%;
+    margin:auto;
+    margin-top:5%;
+    padding:1rem;
+}
+.testimonial-container-outer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+    width:80%;
+    margin:auto;
+    margin-top:5%;
+    padding:16px;
+}
+.customers-profile{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+margin-right:auto;
+margin-left:auto;
+display:block;
+margin-bottom:10px;
+}
+.cardp {
+    text-align: center;
+    padding:1.5rem;
+    border-bottom-right-radius:200px ;
+    border-top-left-radius:200px;
+}
+.card-1{
+    border:5px solid #e74c3c
+}
+.card-2{
+    border:5px solid #12c730
+}
+.card-3{
+    border:5px solid #c70fa8
+}
+
+.card-1 .customers-profile{
+    border:3px solid #e74c3c
+}
+.card-2 .customers-profile{
+    border:3px solid #12c730
+}
+.card-3 .customers-profile{
+    border:3px solid #c70fa8
+}
+.card-1 i{
+font-size: 20px;
+margin-bottom:10px;
+color:gold;
+
+}
+.card-2 i{
+    font-size: 20px;
+margin-bottom:10px;
+color:gold;
+}
+.card-3 i{
+    font-size: 20px;
+margin-bottom:10px;
+color:gold;
+}
+.name{
+    text-transform: uppercase;
+    font-weight:600;
+    margin-top:10px;
+}
+.job{
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
